@@ -6,21 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-   
-</head>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head> 
+<style>
+    body {
+        color: rgb(171, 6, 248);
+    }
+    h1 {
+        color: #16f1f1;
+    }
+    p {
+        color: rgb(255, 10, 161)
+    }
+    </style>
 
 <body>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="sobre.html">Contato</a>
-            </li>
-        </ul>
+    <ul id="menu">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
+    </ul>
 
-        <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
+    <div class="container mb-50">
+
+        <div>
             <form>
                 <label for="nome">Nome: </label>
                 <br>
@@ -28,26 +42,34 @@
                 <br>
                 <label for="email">Email: </label>
                 <br>
-                <input type="email" id="email" placeholder="Digite seu Email">
+                <input type="email" id="email">
                 <br>
                 <label for="assunto">Assunto: </label>
                 <br>
                 <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
                 <br>
+                <br>
                 <button>Enviar</button>
             </form>
-            <h4>Endereço da minha empresa</h4>
+        </div>
+        <div class="ml-50"> 
 
-            <p> RIO DE JANEIRO </p>
+            <p>RIO DE JANEIRO</p>
 
             <iframe
-                src="https://www.google.com/search?sxsrf=ALiCzsazF9peqVQUOTutvuR0fgw1oL0CZA:1670626938456&q=rio+de+janeiro+mapa&sa=X&ved=2ahUKEwjl1d-p0u37AhWKqJUCHSIHBpUQ7xYoAHoECAcQAQ&biw=1366&bih=649&dpr=1#"
+                src="https://www.google.com/maps/place/Rio+de+Janeiro,+RJ/@-22.9138851,-43.7261746,10z/data=!3m1!4b1!4m5!3m4!1s0x9bde559108a05b:0x50dc426c672fd24e!8m2!3d-22.9068467!4d-43.1728965"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            <footer>
-                <h5>Direitos reservados: Carolina Alves &copy;</h5>
-            </footer>
+        </div>
+    </div>
+    <footer class="center">
+        <div>
+            <a href=""><img class="tm-social" src="Assets/facebook.png" alt="Image" height="42" width="42" Logo do Facebook"></a>
+            <a href=""> <img class="tm-social" src="assets/linkedin.png" alt="Image" height="42" width="42" Logo do Instagram"></a>
+            <a href=""> <img class="tm-social" src="assets/Instagram.png" alt="Image" height="42" width="42" Logo do Linkedin"></a>
+        </div>
+        <p> Carolina Alves &copy;</p>
+    </footer>
 </body>
 
 </html>
